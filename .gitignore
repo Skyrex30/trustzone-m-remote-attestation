@@ -1,0 +1,54 @@
+# Build output
+<<<<<<< HEAD
+/Debug/
+/Release/
+/build/
+
+# Eclipse / STM32CubeIDE files
+=======
+/build/
+/Debug/
+/Release/
+
+# Eclipse / STM32CubeIDE
+<<<<<<< HEAD
+>>>>>>> 4a91150 (Initial STM32 project commit)
+=======
+>>>>>>> a065c7f8ee3c0fe4128565401f6e371e897358ac
+>>>>>>> 3ed194cecdf30797b0ee935ff5ab47e9357fd4ad
+.metadata/
+.settings/
+*.launch
+
+<<<<<<< HEAD
+# Object files and compiled artifacts
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+
+# Temporary / logs
+*.log
+*.dep
+*.lst
+*.bak
+*.swp
+
+# Backup / auto-generated files
+*.tmp
+*~
+=======
+# C files compiled
+*.o
+*.d
+
+# Logs
+*.log
+<<<<<<< HEAD
+>>>>>>> 4a91150 (Initial STM32 project commit)
+=======
+>>>>>>> a065c7f8ee3c0fe4128565401f6e371e897358ac
+>>>>>>> 3ed194cecdf30797b0ee935ff5ab47e9357fd4ad
