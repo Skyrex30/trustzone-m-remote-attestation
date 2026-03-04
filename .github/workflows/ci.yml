@@ -1,0 +1,19 @@
+name: STM32 CI
+
+on:
+  push:
+    branches: [develop, main]
+  pull_request:
+    branches: [develop, main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: sudo apt-get install -y build-essential gcc-arm-none-eabi
+      - name: Build project
+        run: |
+          cd Core
+          make all   # or your build command
