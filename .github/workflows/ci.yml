@@ -15,9 +15,9 @@ jobs:
         run: sudo apt-get install -y build-essential gcc-arm-none-eabi
       - name: Build Secure world
         run: |
-        cd Secure
-        make all  # or your IDE build command for secure
+          cd Secure
+          make all  # or your IDE build command for secure
       - name: Build NonSecure world
         run: |
-        cd ../NonSecure
-        make all  # or IDE build command for non-secure
+          cd ../NonSecure
+          make all  # or IDE build command for non-secure
